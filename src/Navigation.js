@@ -6,7 +6,7 @@ class Navigation extends Component {
         return(
             <div className="Navigation">
                 <input type="checkbox" className="Navigation__checkbox" id="navi-toggle" />
-                    <label for="navi-toggle" className="Navigation__button">
+                    <label htmlFor="navi-toggle" className="Navigation__button">
                         <span className="Navigation__icon">&nbsp;</span>
                     </label>
                     <div className="Navigation__background">&nbsp;</div>
