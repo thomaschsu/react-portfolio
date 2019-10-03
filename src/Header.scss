@@ -13,11 +13,11 @@ $color-black: #424242;
         transform: translateY(0%)
     }
 
-    50% {
+    25% {
         transform: translateY(-5%)
     }
 
-    70% {
+    50% {
         transform: translateY(5%)
     }
 
@@ -32,6 +32,12 @@ $color-black: #424242;
     background-size: cover;
     background-position: center;
     text-align: center;
+    &-heading {
+        color: $color-white;
+        font-weight: 300;
+        margin-top: 0;
+        padding-top: 1rem;
+    }
 }
 
 #me {
@@ -39,4 +45,9 @@ $color-black: #424242;
     width: 250px;
     animation-name: bounce;
     animation-duration: 1s;
+    transition: border .5s ease-in;
+
+    &:hover {
+        border: 2px solid $color-dark-transparent;
+    }
 }
