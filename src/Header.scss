@@ -83,6 +83,9 @@ $color-black: #424242;
         animation-timing-function: ease-in-out;
         backface-visibility: hidden;
     }
+    &-name {
+        color: $color-primary-light;
+    }
 }
 
 #me {
