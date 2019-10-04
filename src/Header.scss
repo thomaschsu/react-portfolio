@@ -37,6 +37,17 @@ $color-black: #424242;
         font-weight: 300;
         margin-top: 0;
         padding-top: 1rem;
+        letter-spacing: 1px;
+    }
+    &-about-box {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%)
+    }
+    &-subtitle {
+        color: #fff;
+        font-weight: 300;
     }
 }
 
