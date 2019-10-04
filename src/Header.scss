@@ -32,6 +32,7 @@ $color-black: #424242;
     background-size: cover;
     background-position: center;
     text-align: center;
+
     &-heading {
         color: $color-white;
         font-weight: 300;
@@ -39,12 +40,14 @@ $color-black: #424242;
         padding-top: 1rem;
         letter-spacing: 1px;
     }
+
     &-about-box {
         position: absolute;
         top: 40%;
         left: 50%;
         transform: translate(-50%, -50%)
     }
+
     &-subtitle {
         color: #fff;
         font-weight: 300;
@@ -56,9 +59,10 @@ $color-black: #424242;
     width: 250px;
     animation-name: bounce;
     animation-duration: 1s;
-    transition: border .5s ease-in;
+    transition: all ease 500ms;
 
     &:hover {
-        border: 2px solid $color-dark-transparent;
+        transform: scale(1.15);
+        opacity: 0.75;
     }
 }
