@@ -50,6 +50,10 @@ $color-black: #424242;
     }
 }
 
+.text-shadow {
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.25);
+}
+
 .Header {
     height: 70vh;
     background-image: linear-gradient(to right bottom, $color-light-transparent, $color-dark-transparent), url(/images/hero.jpg);
