@@ -6,7 +6,7 @@ class Header extends Component {
         return (
             <header className="Header">
                 <div className="Header-about-box">
-                    <h1 className="Header-heading">Hi! My name is <span className="Header-name">Tom Hsu</span>.</h1>
+                    <h1 className="Header-heading highlight-hover">Hi! My name is <span className="Header-name">Tom Hsu</span></h1>
                     <img id="me" src="images/profile.jpg" alt="Picture of Tom Hsu" />
                     <h2 className="Header-subtitle">I'm a front-end web developer</h2>
                 </div>
