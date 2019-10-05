@@ -14,12 +14,22 @@ $color-black: #000;
         box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
     }
 }
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 
 .Navigation {
     &__checkbox {
         display: none;
     }
-
+    &-colon {
+        animation: blink 1s infinite;
+    }
     &__button {
         background-color: $color-white;
         height: 5rem;
