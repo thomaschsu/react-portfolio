@@ -101,13 +101,13 @@ $color-black: #424242;
     }
 
     &-name {
-        color: #448AFF;
+        color: #00B0FF;
         font-weight: 400;
     }
 }
 
 .highlight-hover {
-    @include highlight($color-secondary-dark);
+    @include highlight(#80DEEA);
 }
 
 #me {
