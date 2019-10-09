@@ -8,3 +8,9 @@
         background-position: -100%;
     }
 }
+
+@mixin hover-effect {
+    opacity: 0.75;
+    transform: translate(5%, -2%);
+    box-shadow: -1px 1px #00B0FF, -2px 2px #00B0FF, -3px 3px #00B0FF, -4px 4px #00B0FF, -5px 5px #00B0FF, -6px 6px #00B0FF, -7px 7px #00B0FF, -8px 8px #00B0FF;
+}
