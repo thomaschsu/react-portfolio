@@ -1,10 +1,6 @@
-$color-primary-light: #74b9ff;
-$color-primary-dark: #0984e3;
-$color-white: #fff;
-$color-black: #000;
+@import "../App/variables.scss";
 
 // Keyframes
-
 @keyframes pulse {
     0% {
         box-shadow: 0 0 0 0px rgba($color-black, 0.30);
