@@ -1,7 +1,7 @@
 import React from 'react';
-// import './App.css'
-import Navigation from './Navigation'
-import Header from './Header'
+import './App.scss'
+import Navigation from '../Navigation/Navigation'
+import Header from '../Header/Header'
 
 function App() {
   return (
