@@ -74,7 +74,7 @@ $color-black: #424242;
 
     border-bottom: 5px solid #00B0FF;
 
-    &-heading {
+    &__heading {
         color: $color-white;
         font-weight: 300;
         margin-top: 0;
@@ -85,14 +85,14 @@ $color-black: #424242;
         backface-visibility: hidden;
     }
 
-    &-about-box {
+    &__about {
         position: absolute;
         top: 40%;
         left: 50%;
         transform: translate(-50%, -50%)
     }
 
-    &-subtitle {
+    &__subtitle {
         color: $color-white;
         font-weight: 300;
         padding: .5rem;
@@ -103,7 +103,7 @@ $color-black: #424242;
         @include highlight($color-primary-light);
     }
 
-    &-name {
+    &__name {
         color: #00B0FF;
         font-weight: 400;
     }
