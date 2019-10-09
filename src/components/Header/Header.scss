@@ -1,5 +1,6 @@
 @import "../App/variables.scss";
 @import "../App/animations.scss";
+@import "../App/mixins.scss";
 
 .text-shadow {
     text-shadow: 1px 1px rgba($color-black, 0.25);
