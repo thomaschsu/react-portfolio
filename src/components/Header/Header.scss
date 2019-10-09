@@ -1,57 +1,5 @@
 @import "../App/variables.scss";
-
-// Keyframes
-@keyframes bounce {
-    0% {
-        transform: translateY(0%);
-    }
-
-    25% {
-        transform: translateY(-5%);
-    }
-
-    50% {
-        transform: translateY(5%);
-    }
-
-    100% {
-        transform: translateY(0%);
-    }
-}
-
-@keyframes moveInLeft {
-    0% {
-        transform: translateX(-10%);
-        opacity: 0;
-    }
-
-    100% {
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
-
-@keyframes moveInRight {
-    0% {
-        transform: translateX((10%));
-        opacity: 0;
-    }
-
-    100% {
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
-
-@mixin highlight($color) {
-    background-image: linear-gradient(to right, transparent 50%, $color 50%);
-    background-size: 200%;
-    transition: background 0.4s;
-
-    &:hover {
-        background-position: -100%;
-    }
-}
+@import "../App/animations.scss";
 
 .text-shadow {
     text-shadow: 1px 1px rgba($color-black, 0.25);
