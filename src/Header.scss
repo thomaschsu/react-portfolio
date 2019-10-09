@@ -1,6 +1,7 @@
 $color-primary-light: #74b9ff;
 $color-primary-dark: #0984e3;
 $color-secondary-light: #81ecec;
+$color-black: #000;
 $color-light-transparent: rgba(0, 0, 0, 0.65);
 $color-secondary-dark: #00cec9;
 $color-dark-transparent: rgba(59, 59, 59, 0.65);
@@ -61,7 +62,7 @@ $color-black: #424242;
 }
 
 .text-shadow {
-    text-shadow: 1px 1px rgba(0, 0, 0, 0.25);
+    text-shadow: 1px 1px rgba($color-black, 0.25);
 }
 
 .Header {
