@@ -1,3 +1,5 @@
+@import "./components/App/variables.scss";
+
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
@@ -5,7 +7,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding: 1rem;
-  background-color: #FFF;
+  background-color: $color-grey-light;
 }
 
 code {
