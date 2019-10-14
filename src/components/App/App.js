@@ -3,14 +3,16 @@ import 'normalize.css/normalize.css'
 import './App.scss'
 import Navigation from '../Navigation/Navigation'
 import Header from '../Header/Header'
-import Icons_bar from '../Icons-bar/Icons_bar'
+import IconsBar from '../IconsBar/IconsBar'
+import Body from '../Body/Body'
 
 function App() {
   return (
     <div className="App">
       <Navigation />
       <Header />
-      <Icons_bar />
+      <IconsBar />
+      <Body />
     </div>
   );
 }

@@ -8,11 +8,13 @@
 
 .Header {
     height: 70vh;
-    background-image: linear-gradient(to right bottom, $color-light-transparent, $color-dark-transparent), url(/images/hero.jpg);
-    background-size: cover;
-    background-position: center;
+    width: 100%;
+    // background-image: linear-gradient(to right bottom, $color-light-transparent, $color-dark-transparent), url(/images/hero.jpg);
+    // background-size: cover;
+    // background-position: center;
     text-align: center;
     border-bottom: 5px solid #00B0FF;
+    position: relative;
 
     &__heading {
         color: $color-white;
@@ -63,4 +65,13 @@
     &:hover {
         @include hover-effect;
     }
+}
+
+.hero-video {
+    object-fit: fill;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
 }

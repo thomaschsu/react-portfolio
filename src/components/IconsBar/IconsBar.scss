@@ -1,0 +1,29 @@
+@import "../App/variables.scss";
+@import "../App/animations.scss";
+@import "../App/mixins.scss";
+
+.Icons_bar {
+    display: flex;
+    justify-content: center;
+    background-color: $color-grey-light;
+    height: 15vh;
+
+    &--icons-container {
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+    }
+
+    &--box {
+        width: 25%;
+        text-align: center;
+        transition: all ease 500ms;
+        &:hover {
+            transform: translateY(-10%);
+            transform: scale(1.15);
+            background-color: $color-white;
+            border-radius: .5rem;
+            opacity: 0.8;
+        }
+    }
+}
