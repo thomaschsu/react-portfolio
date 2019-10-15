@@ -7,6 +7,8 @@
     justify-content: center;
     background-color: $color-grey-light;
     padding: 1rem 0;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
 
     &--icons-container {
         display: flex;
