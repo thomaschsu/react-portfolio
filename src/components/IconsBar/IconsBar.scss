@@ -7,10 +7,10 @@
     justify-content: center;
     background-color: $color-grey-light;
     padding: 1rem 0;
+
     &--icons-container {
         display: flex;
         justify-content: center;
-        justify-content: space-around;
     }
 
     &--box {
@@ -20,11 +20,10 @@
         padding: 1rem;
 
         &:hover {
-            transform: translateY(-10%);
-            transform: scale(1.15);
+            transform: scale(1.20);
             background-color: $color-white;
             border-radius: .5rem;
-            opacity: 0.8;
+            border-right: none;
         }
     }
 
@@ -32,12 +31,29 @@
         &-1 {
             color: $color-primary-dark;
         }
+
         &-2 {
             color: $color-secondary-dark;
         }
+
         &-3 {
             color: $color-tertiary-dark;
         }
+    }
+}
+
+
+.box {
+    &-1 {
+        border-right: 2px solid $color-primary-dark;
+    }
+
+    &-2 {
+        border-right: 2px solid $color-secondary-dark;
+    }
+
+    &-3 {
+        border-right: 2px solid $color-tertiary-dark;
     }
 }
 
