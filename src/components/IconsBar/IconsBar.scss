@@ -61,12 +61,27 @@
 
 .fa-code-branch {
     color: $color-primary-dark;
+
+    &:hover {
+        animation-name: rubberBand;
+        animation-duration: 1s;
+    }
 }
 
 .fa-book {
     color: $color-secondary-dark;
+
+    &:hover {
+        animation-name: rubberBand;
+        animation-duration: 1s;
+    }
 }
 
 .fa-bug {
     color: $color-tertiary-dark;
+
+    &:hover {
+        animation-name: rubberBand;
+        animation-duration: 1s;
+    }
 }

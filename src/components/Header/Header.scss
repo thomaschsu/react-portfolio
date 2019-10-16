@@ -53,11 +53,11 @@
     &__icons {
         font-size: 2em;
         margin: 1rem;
-        transition: all 500ms;
     }
 
     &__icons:hover {
-        transform: scale(1.4);
+        animation-name: rubberBand;
+        animation-duration: 1s;
     }
 }
 
