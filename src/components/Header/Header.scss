@@ -43,6 +43,8 @@
         animation-timing-function: ease-in-out;
         backface-visibility: hidden;
         @include highlight($color-primary-light);
+        width: 80%;
+        margin: 0 auto;
     }
 
     &__name {
