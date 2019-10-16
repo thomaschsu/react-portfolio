@@ -6,10 +6,6 @@
         display: none;
     }
 
-    &-colon {
-        animation: blink 1s infinite;
-    }
-
     &__button {
         background-color: $color-white;
         height: 5rem;
