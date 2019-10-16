@@ -2,6 +2,9 @@
 @import "../App/animations.scss";
 
 .Navigation {
+    &__display {
+        display: block !important;
+    }
     &__checkbox {
         display: none;
     }
@@ -71,6 +74,7 @@
         transform: translate(-50%, -50%);
         list-style: none;
         text-align: center;
+        display: none;
     }
 
     &__item {

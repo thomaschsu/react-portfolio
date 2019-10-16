@@ -88,12 +88,24 @@
 
 .fa-linkedin {
     color: $color-primary-dark;
+
+    &:hover {
+        color: $color-primary-light;
+    }
 }
 
 .fa-github-alt {
     color: $color-secondary-dark;
+
+    &:hover {
+        color: $color-secondary-light;
+    }
 }
 
 .fa-envelope-open {
     color: $color-tertiary-dark;
+
+    &:hover {
+        color: $color-tertiary-light;
+    }
 }
