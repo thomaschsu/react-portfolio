@@ -51,7 +51,6 @@
     }
 
     &__icons {
-        color: $color-white;
         font-size: 2rem;
         margin: 1rem;
         transition: all 500ms;
@@ -67,11 +66,6 @@
     width: 13vw;
     animation-name: bounce;
     animation-duration: 1s;
-    transition: all ease 500ms;
-
-    &:hover {
-        @include hover-effect;
-    }
 }
 
 .hero-video {
@@ -82,4 +76,16 @@
     height: 100%;
     width: 100%;
     overflow: hidden;
+}
+
+.fa-linkedin {
+    color: $color-primary-dark;
+}
+
+.fa-github-alt {
+    color: $color-secondary-dark;
+}
+
+.fa-envelope-open {
+    color: $color-tertiary-dark;
 }
