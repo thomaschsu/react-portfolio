@@ -48,14 +48,29 @@
 .box {
     &-1 {
         border-right: 2px solid $color-primary-dark;
+
+        &:hover .fa-code-branch,
+        &:hover .IconsBar__h2-1 {
+            color: $color-primary-light;
+        }
     }
 
     &-2 {
         border-right: 2px solid $color-secondary-dark;
+
+        &:hover .fa-book,
+        &:hover .IconsBar__h2-2 {
+            color: $color-secondary-light;
+        }
     }
 
     &-3 {
         border-right: 2px solid $color-tertiary-dark;
+
+        &:hover .fa-bug,
+        &:hover .IconsBar__h2-3 {
+            color: $color-tertiary-light;
+        }
     }
 }
 
