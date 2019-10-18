@@ -1,10 +1,11 @@
 .Body {
     &__container {
-        max-width: 75vw;
+        max-width: 60vw;
         display: flex;
         flex-direction: column;
-        align-self: center;
+        margin: 0 auto;
     }
+
     &__paragraph {
         display: flex;
         align-items: center;
