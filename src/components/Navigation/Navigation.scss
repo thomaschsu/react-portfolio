@@ -11,8 +11,8 @@
 
     &__button {
         background-color: $color-white;
-        height: 5rem;
-        width: 5rem;
+        height: 4rem;
+        width: 4rem;
         border-radius: 50%;
         position: fixed;
         top: 5rem;
@@ -35,8 +35,8 @@
     }
 
     &__background {
-        height: 4rem;
-        width: 4rem;
+        height: 3rem;
+        width: 3rem;
         border-radius: 50%;
         position: fixed;
         top: 5.5rem;
@@ -113,7 +113,7 @@
 
     //FUNCTIONALITY
     &__checkbox:checked~&__background {
-        transform: scale(80);
+        transform: scale(100);
     }
 
     &__checkbox:checked~&__nav {
@@ -124,14 +124,14 @@
     //ICON
     &__icon {
         position: relative;
-        margin-top: 2.5rem;
+        margin-top: 2rem;
 
         &,
         &::before,
         &::after {
             width: 3rem;
             height: 2px;
-            background-color: $color-black;
+            background-color: $color-primary-dark;
             display: inline-block;
         }
 
