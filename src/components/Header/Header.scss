@@ -25,6 +25,10 @@
         animation: moveInLeft 2s;
         animation-timing-function: ease-in-out;
         backface-visibility: hidden;
+
+        @include media(phone) {
+            font-size: 1.5rem;
+        }
     }
 
     &__about-box {
@@ -46,6 +50,10 @@
         width: 80%;
         margin: 0 auto;
         transition: all .5s;
+
+        @include media(phone) {
+            font-size: 1.5rem;
+        }
 
         &:hover {
             transform: translateX(1rem);
@@ -74,15 +82,19 @@
     width: 50%;
     animation-name: bounce;
     animation-duration: 1s;
+
     @include media(tab-land) {
         width: 45%;
     }
+
     @include media(tab-port) {
         width: 45%;
     }
+
     @include media(phone) {
-        width: 65%;
+        display: none;
     }
+
     @include media(big-desktop) {
         width: 55%;
     }

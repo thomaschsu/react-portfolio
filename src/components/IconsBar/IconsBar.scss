@@ -10,10 +10,20 @@
     border-bottom: 2px solid rgba(0, 0, 0, 0.1);
     margin-bottom: 2rem;
 
+    @include media(tab-port) {
+        border-bottom: none;
+    }
+
     &--icons-container {
         display: flex;
         justify-content: center;
         max-width: 75vw;
+
+        @include media(tab-port) {
+            flex-direction: column;
+            max-width: initial;
+        }
+
     }
 
     &--box {
@@ -21,6 +31,10 @@
         text-align: center;
         transition: all ease 500ms;
         padding: 1rem;
+
+        @include media(tab-port) {
+            width: 100%;
+        }
 
         &:hover {
             transform: scale(1.20);
@@ -50,6 +64,11 @@
     &-1 {
         border-right: 2px solid $color-primary-dark;
 
+        @include media(tab-port) {
+            border-right: none;
+            border-bottom: 2px solid $color-primary-dark;
+        }
+
         &:hover .fa-code-branch,
         &:hover .IconsBar__h2-1 {
             color: $color-primary-light;
@@ -59,6 +78,11 @@
     &-2 {
         border-right: 2px solid $color-secondary-dark;
 
+        @include media(tab-port) {
+            border-right: none;
+            border-bottom: 2px solid $color-secondary-dark;
+        }
+
         &:hover .fa-book,
         &:hover .IconsBar__h2-2 {
             color: $color-secondary-light;
@@ -67,6 +91,11 @@
 
     &-3 {
         border-right: 2px solid $color-tertiary-dark;
+
+        @include media(tab-port) {
+            border-right: none;
+            border-bottom: 2px solid $color-tertiary-dark;
+        }
 
         &:hover .fa-bug,
         &:hover .IconsBar__h2-3 {
