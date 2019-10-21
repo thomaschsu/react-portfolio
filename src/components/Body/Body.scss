@@ -1,4 +1,7 @@
 .Body {
+    &__title {
+        text-align: center;
+    }
     &__container {
         max-width: 60vw;
         display: flex;

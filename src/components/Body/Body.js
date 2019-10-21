@@ -5,6 +5,7 @@ class Body extends Component {
     render() {
         return (
             <div className="Body__container">
+            <h2 className="Body__title">About Me</h2>
                 <p className="Body__paragraph">Tom is an experienced Front-End Web Developer with a proven background in developing user-friendly websites and web applications. He is familiar with full stack development and is well-versed in various programming languages including JavaScript, HTML, SCSS, CSS, Node, and more.</p>
                 <p className="Body__paragraph">Tom graduated from Rutgers University with a major in Information Technology. After graduation, he took a lead role in the production and maintenance of a front-end Magento and WordPress company website. This included implementing a PunchOut catalog, systematically testing the website for bugs, and managing the backend Magento catalog. Tom was also responsible for building and managing graphics for the front-end. He also provided client services in a massive company project that required imaging thousands of laptops and desktops for Elizabeth school districts all within tight time constraints.</p>
 

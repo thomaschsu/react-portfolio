@@ -7,10 +7,10 @@
         visibility: visible !important;
     }
 
-    // &__checkbox {
-    //     opacity: 0;
-    //     visibility: hidden;
-    // }
+    &__checkbox {
+        opacity: 0;
+        visibility: hidden;
+    }
 
     &__button {
         background-color: $color-white;
