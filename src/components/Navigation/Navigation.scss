@@ -3,13 +3,10 @@
 
 .Navigation {
     &__display {
-        opacity: 1 !important;
-        visibility: visible !important;
+        display: block !important;
     }
-
     &__checkbox {
-        opacity: 0;
-        visibility: hidden;
+        display: none;
     }
 
     &__button {
@@ -77,8 +74,7 @@
         transform: translate(-50%, -50%);
         list-style: none;
         text-align: center;
-        opacity: 0;
-        visibility: hidden;
+        display: none;
     }
 
     &__item {
