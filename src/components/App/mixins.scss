@@ -14,3 +14,31 @@
     transform: translate(5%, -2%);
     box-shadow: -1px 1px #00B0FF, -2px 2px #00B0FF, -3px 3px #00B0FF, -4px 4px #00B0FF, -5px 5px #00B0FF, -6px 6px #00B0FF, -7px 7px #00B0FF, -8px 8px #00B0FF;
 }
+
+// Media Query Manager
+
+@mixin media($breakpoint) {
+    @if $breakpoint==phone {
+        @media (max-width: 37.5em) {
+            @content
+        };
+    }
+
+    @if $breakpoint==tab-port {
+        @media (max-width: 56.25em) {
+            @content
+        };
+    }
+
+    @if $breakpoint==tab-land {
+        @media (max-width: 75em) {
+            @content
+        };
+    }
+
+    @if $breakpoint==desktop {
+        @media (min-width: 112.5em) {
+            @content
+        };
+    }
+}

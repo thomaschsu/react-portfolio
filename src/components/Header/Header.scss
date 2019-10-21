@@ -71,9 +71,21 @@
 
 #me {
     border-radius: 50%;
-    width: 13vw;
+    width: 50%;
     animation-name: bounce;
     animation-duration: 1s;
+    @include media(tab-land) {
+        width: 45%;
+    }
+    @include media(tab-port) {
+        width: 45%;
+    }
+    @include media(phone) {
+        width: 65%;
+    }
+    @include media(big-desktop) {
+        width: 55%;
+    }
 }
 
 .hero-video {
