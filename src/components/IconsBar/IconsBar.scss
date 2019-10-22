@@ -12,6 +12,7 @@
 
     @include media(tab-port) {
         border-bottom: none;
+        margin-bottom: 0;
     }
 
     &--icons-container {
@@ -33,7 +34,8 @@
         padding: 1rem;
 
         @include media(tab-port) {
-            width: 100%;
+            width: 70%;
+            margin: 0 auto;
         }
 
         &:hover {
@@ -41,6 +43,10 @@
             background-color: $color-white;
             border-radius: .5rem;
             border-right: none;
+
+            @include media(tab-port) {
+                border-bottom: none;
+            }
         }
     }
 
