@@ -23,6 +23,7 @@
         @include media(tab-port) {
             flex-direction: column;
             max-width: initial;
+            align-items: center;
         }
 
     }
@@ -35,7 +36,6 @@
 
         @include media(tab-port) {
             width: 70%;
-            margin: 0 auto;
         }
 
         &:hover {
